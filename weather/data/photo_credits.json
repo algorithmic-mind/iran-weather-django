@@ -1,0 +1,281 @@
+{
+  "اردبیل": {
+    "file": "provinces/province-01.jpg",
+    "title": "File:Sheikh_Safi_Al_Din_Ardabili_Tomb.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sheikh_Safi_Al_Din_Ardabili_Tomb.jpg",
+    "author": "MAF70",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 268395
+  },
+  "اصفهان": {
+    "file": "provinces/province-02.jpg",
+    "title": "File:Naqsh-i_Jahan_Square,_Jan._2018.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Naqsh-i_Jahan_Square,_Jan._2018.jpg",
+    "author": "احمد جمالی مقدم",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 240444
+  },
+  "البرز": {
+    "file": "provinces/province-03.jpg",
+    "title": "File:Karaj_dam.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Karaj_dam.jpg",
+    "author": "ninara",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "bytes": 266588
+  },
+  "آذربایجان غربی": {
+    "file": "provinces/province-04.jpg",
+    "title": "File:Urmia-Lake-3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Urmia-Lake-3.jpg",
+    "author": "Arashk rp2",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 83374
+  },
+  "بوشهر": {
+    "file": "provinces/province-05.jpg",
+    "title": "File:Bushehr_City.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bushehr_City.jpg",
+    "author": "Hossein Heidarpour",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "bytes": 216464
+  },
+  "تهران": {
+    "file": "provinces/province-06.jpg",
+    "title": "File:Palais_du_Golestan,_Téhéran_(5).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Palais_du_Golestan,_T%C3%A9h%C3%A9ran_(5).jpg",
+    "author": "ZarlokX",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 514068
+  },
+  "چهارمحال وبختیاری": {
+    "file": "provinces/province-07.jpg",
+    "title": "File:Choghakhor.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Choghakhor.jpg",
+    "author": "Ehsantaebi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 330441
+  },
+  "خراسان جنوبی": {
+    "file": "provinces/province-08.jpg",
+    "title": "File:مجموعه_اکبریه،_مسجد_و_عمارت_و_باغ.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87_%D8%A7%DA%A9%D8%A8%D8%B1%DB%8C%D9%87%D8%8C_%D9%85%D8%B3%D8%AC%D8%AF_%D9%88_%D8%B9%D9%85%D8%A7%D8%B1%D8%AA_%D9%88_%D8%A8%D8%A7%D8%BA.jpg",
+    "author": "Soroush.javadian",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 1185152
+  },
+  "خراسان شمالی": {
+    "file": "provinces/province-09.jpg",
+    "title": "File:Mofakham_Mirror_House_by_Arashk_Rajabpour.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mofakham_Mirror_House_by_Arashk_Rajabpour.jpg",
+    "author": "Arashk rp2",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "bytes": 385752
+  },
+  "زنجان": {
+    "file": "provinces/province-10.jpg",
+    "title": "File:Soltaniyeh_Dome.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Soltaniyeh_Dome.JPG",
+    "author": "Hammu-rapium",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "bytes": 356341
+  },
+  "سیستان وبلوچستان": {
+    "file": "provinces/province-11.jpg",
+    "title": "File:C20R1002.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:C20R1002.jpg",
+    "author": "Amirkhan33",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 243415
+  },
+  "فارس": {
+    "file": "provinces/province-12.jpg",
+    "title": "File:2018-09-21_Iran,_Persepolis,_Tachara_(from_the_southeast).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2018-09-21_Iran,_Persepolis,_Tachara_(from_the_southeast).jpg",
+    "author": "Laurens R. Krol",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "bytes": 334949
+  },
+  "قم": {
+    "file": "provinces/province-13.jpg",
+    "title": "File:Fatima_Masumeh_Shrine2021-06-11_13.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fatima_Masumeh_Shrine2021-06-11_13.jpg",
+    "author": "Amir Hesaminejad",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "bytes": 150322
+  },
+  "کردستان": {
+    "file": "provinces/province-14.jpg",
+    "title": "File:AliAfzali1985_ZarivarLake_4.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:AliAfzali1985_ZarivarLake_4.jpg",
+    "author": "Aliafzali1985 at Persian Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "bytes": 193684
+  },
+  "کرمان": {
+    "file": "provinces/province-15.jpg",
+    "title": "File:باغ_شاهزاده-ماهان-کرمان.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:%D8%A8%D8%A7%D8%BA_%D8%B4%D8%A7%D9%87%D8%B2%D8%A7%D8%AF%D9%87-%D9%85%D8%A7%D9%87%D8%A7%D9%86-%DA%A9%D8%B1%D9%85%D8%A7%D9%86.jpg",
+    "author": "Pourjafari",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 328107
+  },
+  "کرمانشاه": {
+    "file": "provinces/province-16.jpg",
+    "title": "File:تاق‌بستان.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:%D8%AA%D8%A7%D9%82%E2%80%8C%D8%A8%D8%B3%D8%AA%D8%A7%D9%86.jpg",
+    "author": "Ali Heidari - علی حیدری",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 392061
+  },
+  "کهگیلویه وبویراحمد": {
+    "file": "provinces/province-17.jpg",
+    "title": "File:Dena_Mountain-Iran-Mar2012.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Dena_Mountain-Iran-Mar2012.JPG",
+    "author": "Eh kia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "bytes": 174507
+  },
+  "گلستان": {
+    "file": "provinces/province-18.jpg",
+    "title": "File:Autumn Wildlife Census in Golestan National Park Avash 05.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Autumn_Wildlife_Census_in_Golestan_National_Park_Avash_05.jpg",
+    "author": "محمد برنو",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "bytes": 236542
+  },
+  "گیلان": {
+    "file": "provinces/province-19.jpg",
+    "title": "File:Masuleh,_Fuman_County,_Gilan_Province,_Iran.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Masuleh,_Fuman_County,_Gilan_Province,_Iran.jpg",
+    "author": "Hanieh.smd",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 410284
+  },
+  "لرستان": {
+    "file": "provinces/province-20.jpg",
+    "title": "File:Falakolaflak.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Falakolaflak.jpg",
+    "author": "https://www.flickr.com/photos/ninara/",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "bytes": 377996
+  },
+  "مازندران": {
+    "file": "provinces/province-21.jpg",
+    "title": "File:981012-Damavand-South-IMG_9861-2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:981012-Damavand-South-IMG_9861-2.jpg",
+    "author": "Safa.daneshvar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 230843
+  },
+  "هرمزگان": {
+    "file": "provinces/province-22.jpg",
+    "title": "File:Picture 22 - Hormuz Island.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Picture_22_-_Hormuz_Island.jpg",
+    "author": "ImanFakhri",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 290883
+  },
+  "یزد": {
+    "file": "provinces/province-23.jpg",
+    "title": "File:Iran_1343_Yazd_(8665215641).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Iran_1343_Yazd_(8665215641).jpg",
+    "author": "Ninara from Helsinki, Finland",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "bytes": 219591
+  },
+  "ایلام": {
+    "file": "provinces/province-24.jpg",
+    "title": "File:Sheikh Makan Fort 01 (cropped) 3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sheikh_Makan_Fort_01_(cropped)_3.jpg",
+    "author": "Ghobadj",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 470543
+  },
+  "آذربایجان شرقی": {
+    "file": "provinces/province-25.jpg",
+    "title": "File:Beautiful architecture tabriz bazaar - Colorful.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Beautiful_architecture_tabriz_bazaar_-_Colorful.jpg",
+    "author": "Aminlakestani",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 573314
+  },
+  "خراسان رضوی": {
+    "file": "provinces/province-26.jpg",
+    "title": "File:Imam Reza shrine.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Imam_Reza_shrine.jpg",
+    "author": "mohammad hosein tabatabaeian",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "bytes": 224972
+  },
+  "خوزستان": {
+    "file": "provinces/province-27.jpg",
+    "title": "File:Shushtar Historical Hydraulic System Panorama.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Shushtar_Historical_Hydraulic_System_Panorama.jpg",
+    "author": "Iman Yari",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 432725
+  },
+  "سمنان": {
+    "file": "provinces/province-28.jpg",
+    "title": "File:Semnan Arg.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Semnan_Arg.jpg",
+    "author": "Amin.najmoddin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 155419
+  },
+  "قزوین": {
+    "file": "provinces/province-29.jpg",
+    "title": "File:Chehel sotoun, Qazvin 40.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chehel_sotoun,_Qazvin_40.jpg",
+    "author": "Abtin",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "bytes": 416492
+  },
+  "مرکزی": {
+    "file": "provinces/province-30.jpg",
+    "title": "File:Arak Market-Arak (1).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arak_Market-Arak_(1).jpg",
+    "author": "Behnam Minaei",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 439685
+  },
+  "همدان": {
+    "file": "provinces/province-31.jpg",
+    "title": "File:Iran - Hamedan - The Tomb of Avicenna - panoramio.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Iran_-_Hamedan_-_The_Tomb_of_Avicenna_-_panoramio.jpg",
+    "author": "Alireza Javaheri",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "bytes": 192086
+  }
+}

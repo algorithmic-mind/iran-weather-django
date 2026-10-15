@@ -1,0 +1,115 @@
+{% load static %}
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>آب و هوای شهرهای ایران | وضعیت آب‌وهوا</title>
+  <link href="{% static 'vendor/bootstrap/bootstrap.rtl.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/vazir/vazir.css' %}" rel="stylesheet">
+  <link href="{% static 'weather/style.css' %}" rel="stylesheet">
+</head>
+<body>
+  <main class="container py-3 py-md-4">
+    <header class="d-flex align-items-center mb-4">
+      <a class="brand text-decoration-none" href="{% url 'home' %}"><i class="bi bi-cloud-sun-fill me-2"></i>آب و هوای شهرهای ایران</a>
+    </header>
+
+    <section class="hero mb-4" aria-label="تصویر و وضعیت استان">
+      {% if province and province.image %}<img class="hero-image" src="{{ province.image.url }}" alt="{{ province.image_caption|default:province.name }}">{% endif %}
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <h1 class="mb-2">{% if province %}{{ province.name }}{% elif country %}{{ country.name }}{% else %}آب و هوای شهرهای ایران{% endif %}{% if city %} <span class="hero-city">/ {{ city.name }}</span>{% endif %}</h1>
+        <p class="mb-0 hero-subtitle">وضعیت هوا را برای هر شهر ببین و برای روزهای پیش رو آماده باش.</p>
+        {% if weather %}
+          <div class="hero-weather d-flex align-items-center gap-3 mt-4">
+            <i class="bi {{ weather.icon }}" aria-hidden="true"></i>
+            <div><div class="hero-temperature" dir="ltr">{{ weather.current.temperature_2m|floatformat:0 }}°</div><div>{{ weather.description }}</div></div>
+          </div>
+          <div class="hero-date mt-3">{{ updated_at }} <span>به وقت ایران</span></div>
+        {% endif %}
+      </div>
+      {% if province and province.image_caption %}
+        <div class="photo-caption"><i class="bi bi-camera-fill me-1" aria-hidden="true"></i>{{ province.image_caption }}</div>
+      {% endif %}
+    </section>
+
+    <form id="location-form" method="get" class="location-panel row g-3 align-items-end mb-4">
+      <div class="col-md-3">
+        <label class="form-label" for="country">کشور</label>
+        <select class="form-select" id="country" name="country" onchange="this.form.submit()">
+          {% for item in countries %}
+            <option value="{{ item.pk }}" {% if item.pk == country.pk %}selected{% endif %}>{{ item.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="form-label" for="province">استان</label>
+        <select class="form-select" id="province" name="province" onchange="this.form.submit()">
+          {% for item in provinces %}
+            <option value="{{ item.pk }}" {% if item.pk == province.pk %}selected{% endif %}>{{ item.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="form-label" for="city">شهر <span class="optional">(اختیاری)</span></label>
+        <select class="form-select" id="city" name="city">
+          <option value="">کل استان</option>
+          {% for item in cities %}
+            <option value="{{ item.pk }}" {% if city and item.pk == city.pk %}selected{% endif %}>{{ item.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-primary w-100" type="submit"><i class="bi bi-search ms-2"></i>نمایش هوا</button>
+      </div>
+    </form>
+
+    {% if error %}
+      <div class="alert alert-warning" role="alert"><i class="bi bi-exclamation-circle ms-2"></i>{{ error }}</div>
+    {% endif %}
+
+    {% if weather %}
+      <section class="mb-4" aria-label="جزئیات وضعیت فعلی هوا">
+        <h2 class="section-title mb-3">جزئیات همین حالا</h2>
+        <div class="details-grid">
+          <div class="detail"><i class="bi bi-droplet-half"></i><span>رطوبت</span><strong>{{ weather.current.relative_humidity_2m }}٪</strong></div>
+          <div class="detail"><i class="bi bi-wind"></i><span>سرعت باد</span><strong>{{ weather.current.wind_speed_10m|floatformat:0 }} کیلومتر/ساعت</strong></div>
+          <div class="detail"><i class="bi bi-cloud-rain"></i><span>بارش</span><strong>{{ weather.current.precipitation }} میلی‌متر</strong></div>
+          <div class="detail"><i class="bi bi-thermometer-half"></i><span>دمای محسوس</span><strong>{{ weather.current.apparent_temperature|floatformat:0 }}°</strong></div>
+        </div>
+      </section>
+
+      <section aria-label="پیش‌بینی سه روز آینده">
+        <h2 class="section-title mb-3">سه روز آینده</h2>
+        <div class="row g-3">
+          {% for day in weather.forecast %}
+            <div class="col-md-4">
+              <div class="forecast-card h-100">
+                <div class="d-flex justify-content-between align-items-center">
+                  <strong>{% if forloop.first %}امروز{% elif forloop.counter == 2 %}فردا{% else %}پس‌فردا{% endif %}</strong>
+                  <span class="small text-muted" dir="ltr">{{ day.jalali_date }}</span>
+                </div>
+                <div class="forecast-main"><i class="bi {{ day.icon }}" aria-hidden="true"></i><span>{{ day.description }}</span></div>
+                <div class="d-flex justify-content-between text-muted small">
+                  <span>بیشینه {{ day.max|floatformat:0 }}° / کمینه {{ day.min|floatformat:0 }}°</span>
+                  <span><i class="bi bi-droplet ms-1"></i>{{ day.precipitation }} mm</span>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    <footer class="text-center small text-muted mt-5 pt-3">
+      <div>داده‌های هواشناسی از <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a></div>
+      {% if province and province.image and province.image_source %}
+        <div class="mt-2">اعتبار تصویر: <a href="{{ province.image_source }}" target="_blank" rel="noopener noreferrer">{{ province.image_credit|default:"Wikimedia Commons" }}</a>{% if province.image_license_url %} · <a href="{{ province.image_license_url }}" target="_blank" rel="noopener noreferrer">{{ province.image_license }}</a>{% endif %}</div>
+      {% endif %}
+      <div class="mt-2">طراحی و توسعه توسط <a href="https://amirkho.ir/" target="_blank" rel="noopener noreferrer">amirkho.ir</a></div>
+    </footer>
+  </main>
+</body>
+</html>
